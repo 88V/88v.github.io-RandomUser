@@ -30,9 +30,28 @@ $("input[type='radio']").click(function(){
 });
 
 
-
-
 //added this code before things broke
+
+
+// event listener for select box -nationality
+
+$('#country').on('change',function(){
+
+
+    //get value from user selection
+
+   $('#results').empty(); 
+
+  selectedNationality = $("#country option:selected").text();
+
+url = 'https://randomuser.me/api?results=10&gender='+ radioGender + '&nat='+ selectedNationality;
+
+fetchInformation(url);
+
+
+
+});
+
 
 
     function fetchInformation(url) {
