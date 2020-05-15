@@ -1,100 +1,92 @@
-.jumbotron{
-	background-color: #e63946;
-	margin-top: 50px;
-	color: white;
+.jumbotron {
+    background-color: #e63946;
+    margin-top: 50px;
+    color: white;
 }
 
-h1{
-	text-align: center;
-	font-family: oswald;
-	font-size: 45px;
+h1 {
+    text-align: center;
+    font-family: oswald;
+    font-size: 45px;
 }
 
-body{
-	background-color: #f1faee;
+body {
+    background-color: #f1faee;
 }
 
-.form-control{
-	width: 50%;
-	color: #2b2d42;
-
-}
-
-.form-group{
-	color: #1d3557;
-	font-family: oswald;
-
+.form-control {
+    width: 50%;
+    color: #2b2d42;
 
 }
 
-.radio{
-	color: #1d3557;
-	font-family: oswald;
-	margin-left: 10px;
-}
+.form-group {
+    color: #1d3557;
+    font-family: oswald;
 
-#results{
-	
-	font-family: oswald;
-}
-
-
-
-.card{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	background-color: #a8dadc;
-	color: #1d3557;
-
-	}
-
-#email{
-float:right;
-margin-top: 22px;
-margin-right:20px;
 
 }
 
-#title{
-	margin-left: 10px;
+.radio {
+    color: #1d3557;
+    font-family: oswald;
+    margin-left: 10px;
 }
 
-#country{
-	margin-left: 10px;
-	font-weight: bolder;
+#results {
 
+    font-family: oswald;
 }
 
 
 
-img{
-	box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #a8dadc;
+    color: #1d3557;
 
-;
+}
+
+#email {
+    float: right;
+    margin-top: 22px;
+    margin-right: 20px;
+
+}
+
+#title {
+    margin-left: 10px;
+}
+
+#country {
+    margin-left: 10px;
+    font-weight: bolder;
+
 }
 
 
-.btn-primary{
-	background-color: #e63946;
-	border:0px;
+
+img {
+    box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+
+    ;
 }
 
-.btn-primary:hover{
-	background-color: #4299f5;
-	border:0px;
+
+.btn-primary {
+    background-color: #e63946;
+    border: 0px;
 }
 
-.footer{
-	text-align: center;
-	font-size: 10px;
-	padding-bottom: 20px;
+.btn-primary:hover {
+    background-color: #4299f5;
+    border: 0px;
 }
 
-@media(max-width: 525px){
-
-	#email{
-		width:100px;
-		overflow-wrap: break-word;
-	}
-	}
+.footer {
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
 
