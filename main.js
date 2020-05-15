@@ -23,6 +23,7 @@ $(document).ready(function() {
 								<span id='title'> ${person.name.title}.</span>
 								<span> ${person.name.first}</span>
 								<span> ${person.name.last}</span>
+                                <span id='country'> ${person.location.country}</span>
 								<span id='email'>${person.email}</span>
 				
 							</div>
@@ -35,12 +36,13 @@ $(document).ready(function() {
 
                 });
 
-                loadMore = `<button id='load' class ='btn btn-primary'>Load More</button>`
+                loadMore = `<button id='load' class ='btn btn-primary'>Load 10 More</button>`
 
                 $('#results').append(loadMore);
                 $('#load').on('click', function(){
 
                         fetchInformation(url);
+                        $(this).remove();
 
                 });
 
