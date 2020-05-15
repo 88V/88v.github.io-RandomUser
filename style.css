@@ -22,9 +22,20 @@ body{
 .form-group{
 	color: white;
 	font-family: oswald;
+
+
 }
 
 .radio{
 	color: white;
 	font-family: oswald;
+}
+
+#results{
+	color: white;
+	font-family: oswald;
+}
+
+.well {
+    background: rgb(22, 105, 173);
 }

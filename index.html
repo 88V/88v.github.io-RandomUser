@@ -15,13 +15,13 @@
             <h1>Random User Generator</h1>
         </div>
         <div class="radio">
-            <label><input type="radio" name="gender"> Male</label>
+            <label><input type="radio" value='male' name="gender"> Male</label>
         </div>
         <div class="radio">
-            <label><input type="radio" name="gender"> Female</label>
+            <label><input type="radio" value='female' name="gender"> Female</label>
         </div>
         <div class="radio disabled">
-            <label><input type="radio" name="gender" checked> All</label>
+            <label><input type="radio" value='both' name="gender" checked> All</label>
         </div>
         <br>
         <div class="form-group">
@@ -31,7 +31,7 @@
                 <option>BR</option>
                 <option>CA</option>
                 <option>CH</option>
-                 <option>DE</option>
+                <option>DE</option>
                 <option>ES</option>
                 <option>FI</option>
                 <option>FR</option>
@@ -39,12 +39,19 @@
                 <option>IE</option>
                 <option>IR</option>
                 <option>NO</option>
-                 <option>NL</option>
+                <option>NL</option>
                 <option>NZ</option>
                 <option>TR</option>
                 <option>US</option>
             </select>
         </div>
+
+		<div id="results">
+			
+
+		</div>
+
+
     </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
