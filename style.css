@@ -49,9 +49,16 @@ body{
 #email{
 float:right;
 margin-top: 22px;
+overflow-wrap: break-word;
 
 }
 
 #title{
 	margin-left: 10px;
+}
+
+img{
+	box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+
+;
 }
