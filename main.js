@@ -16,11 +16,13 @@ $(document).ready(function() {
                     p = `<div class ="card">
 							
 
-							<div class =card-body>
+							<div class = card-body>
 
-								<span> ${person.name.title}.</span>
+								<img src="${person.picture.medium}" class="rounded">
+								<span id='title'> ${person.name.title}.</span>
 								<span> ${person.name.first}</span>
 								<span> ${person.name.last}</span>
+								<span id='email'>${person.email}</span>
 				
 							</div>
 						

@@ -1,5 +1,5 @@
 .jumbotron{
-	background-color: #FF856E;
+	background-color: #e63946;
 	margin-top: 50px;
 	color: white;
 }
@@ -11,24 +11,23 @@ h1{
 }
 
 body{
-	background-color: #57BEB1;
+	background-color: #f1faee;
 }
 
 .form-control{
 	width: 50%;
-	color: #FF856E;
+	color: #2b2d42;
 }
 
 .form-group{
-	color: white;
+	color: #1d3557;
 	font-family: oswald;
-
 
 
 }
 
 .radio{
-	color: white;
+	color: #1d3557;
 	font-family: oswald;
 }
 
@@ -37,11 +36,22 @@ body{
 	font-family: oswald;
 }
 
-.well {
-    background: rgb(22, 105, 173);
-}
+
 
 .card{
 	margin-top: 10px;
 	margin-bottom: 10px;
+	background-color: #a8dadc;
+	color: #1d3557;
+
+	}
+
+#email{
+float:right;
+margin-top: 22px;
+
+}
+
+#title{
+	margin-left: 10px;
 }
