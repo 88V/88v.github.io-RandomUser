@@ -40,3 +40,8 @@ body{
 .well {
     background: rgb(22, 105, 173);
 }
+
+.card{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
