@@ -1,10 +1,38 @@
 $(document).ready(function() {
 
-    let url = 'https://randomuser.me/api?results=10&gender=male&nat=AU'
+    let radioGender = 'male';
+    let selectedNationality ='AU';
+    let url = 'https://randomuser.me/api?results=10&gender='+ radioGender + '&nat='+ selectedNationality;
     let p = '';
     let loadMore;
 
+
     fetchInformation(url);
+
+    //radio button listener - delete here if code breaks
+
+$("input[type='radio']").click(function(){
+
+    //get value of radio button
+
+    $('#results').empty();
+
+    radioGender = $("input[name='gender']:checked"). val();
+
+    url = 'https://randomuser.me/api?results=10&gender='+ radioGender + '&nat='+ selectedNationality;
+
+
+    if(radioGender) {
+        fetchInformation(url)
+    }
+
+
+});
+
+
+
+
+//added this code before things broke
 
 
     function fetchInformation(url) {
