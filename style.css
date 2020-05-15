@@ -13,3 +13,18 @@ h1{
 body{
 	background-color: #57BEB1;
 }
+
+.form-control{
+	width: 50%;
+	color: #FF856E;
+}
+
+.form-group{
+	color: white;
+	font-family: oswald;
+}
+
+.radio{
+	color: white;
+	font-family: oswald;
+}
