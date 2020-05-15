@@ -38,6 +38,11 @@ $(document).ready(function() {
                 loadMore = `<button id='load' class ='btn btn-primary'>Load More</button>`
 
                 $('#results').append(loadMore);
+                $('#load').on('click', function(){
+
+                        fetchInformation(url);
+
+                });
 
             });
     }
