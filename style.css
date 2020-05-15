@@ -17,6 +17,7 @@ body{
 .form-control{
 	width: 50%;
 	color: #2b2d42;
+
 }
 
 .form-group{
@@ -29,6 +30,7 @@ body{
 .radio{
 	color: #1d3557;
 	font-family: oswald;
+	margin-left: 10px;
 }
 
 #results{
@@ -49,6 +51,7 @@ body{
 #email{
 float:right;
 margin-top: 22px;
+margin-right:20px;
 
 }
 
@@ -59,7 +62,10 @@ margin-top: 22px;
 #country{
 	margin-left: 10px;
 	font-weight: bolder;
+
 }
+
+
 
 img{
 	box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
@@ -78,10 +84,17 @@ img{
 	border:0px;
 }
 
-@media(max-width: 500px){
+.footer{
+	text-align: center;
+	font-size: 10px;
+	padding-bottom: 20px;
+}
+
+@media(max-width: 525px){
 
 	#email{
 		width:100px;
 		overflow-wrap: break-word;
 	}
 	}
+
