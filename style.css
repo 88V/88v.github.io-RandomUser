@@ -62,3 +62,16 @@ img{
 
 ;
 }
+
+
+.btn-primary{
+	background-color: #e63946;
+	border:0px;
+}
+
+.btn-primary:hover{
+	background-color: #4299f5;
+	border:0px;
+}
+
+

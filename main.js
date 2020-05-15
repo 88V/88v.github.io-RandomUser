@@ -2,6 +2,7 @@ $(document).ready(function() {
 
     let url = 'https://randomuser.me/api?results=10&gender=male&nat=AU'
     let p = '';
+    let loadMore;
 
     fetchInformation(url);
 
@@ -32,9 +33,13 @@ $(document).ready(function() {
 
                     $('#results').append(p);
 
-                })
+                });
 
-            })
+                loadMore = `<button id='load' class ='btn btn-primary'>Load More</button>`
+
+                $('#results').append(loadMore);
+
+            });
     }
 
 });
