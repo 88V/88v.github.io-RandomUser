@@ -1,17 +1,26 @@
-.jumbotron {
+#titleCard {
     background-color: #e63946;
     margin-top: 50px;
+    margin-bottom: 50px;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;;
+
+
+
 }
 
 h1 {
     text-align: center;
     font-family: oswald;
     font-size: 45px;
+
+
 }
 
 body {
     background-color: #f1faee;
+
 }
 
 .form-control {
@@ -23,6 +32,7 @@ body {
 .form-group {
     color: #1d3557;
     font-family: oswald;
+    font-size: 20px;
 
 
 }
@@ -31,6 +41,7 @@ body {
     color: #1d3557;
     font-family: oswald;
     margin-left: 10px;
+    font-size: 20px;
 }
 
 #results {
@@ -89,4 +100,3 @@ img {
     font-size: 10px;
     padding-bottom: 20px;
 }
-
